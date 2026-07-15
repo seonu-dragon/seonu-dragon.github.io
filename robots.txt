@@ -1,7 +1,7 @@
----
-permalink: /robots.txt
----
+# seonu-dragon.github.io 호스트 전체에 적용된다.
+# robots.txt 는 호스트 루트에서만 유효하므로, 프로젝트 페이지(/Mir_US_Stocks/)의
+# 사이트맵 위치도 여기서 알려야 크롤러가 찾는다.
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Sitemap: https://seonu-dragon.github.io/Mir_US_Stocks/sitemap.xml
